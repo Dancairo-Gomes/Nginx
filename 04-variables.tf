@@ -7,19 +7,19 @@ variable "NAME" {
 }
 
 variable "VPC" {
-    default = "vpc-ff8b0382"
+    default = ""
 }
 
 variable "SUBNET" {
-    default = "subnet-8bd6dac6"
+    default = ""
 }
 
 variable "AWS_ACESS_KEY_ID" {
-    default = "AKIAUMPFTM34BVOJU3FJ" 
+    default = "" 
 }
 
 variable "AWS_SECRET_ACESS_KEY" {
-   default =  "rpKQh+4GHbR++AQwsBHGMqnUO7ACsMY0m8TJ26sT"
+   default =  ""
 } 
 
 variable "AWS_REGION" {
@@ -27,5 +27,5 @@ variable "AWS_REGION" {
 }
 
 variable "KEY_NAME" {
-    default = "monitoramento"
+    default = ""
 }
